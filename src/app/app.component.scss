@@ -1,0 +1,17 @@
+/* Effetto hover sulle card */
+.card-hover:hover {
+    background-color: #f8f9fa; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.02); 
+    transition: all 0.2s ease-in-out;
+}
+
+// "alert" toast di bootstrap
+.toast-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* Posiziona il contenitore a metà della pagina */
+    transform: translateX(-50%); /* Centra il contenitore rispetto all'asse X */
+    z-index: 1055; /* Assicurati che il toast sia visibile sopra altri elementi */
+  }
+  
