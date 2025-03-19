@@ -1,4 +1,21 @@
-# EsStanza
+Questo progetto Angular è un'applicazione web per la gestione di stanze. Utilizza un backend simulato fornito da JSON Server per la persistenza dei dati relativi alle stanze.
+
+Tecnologie Utilizzate:
+
+* Angular: Framework frontend per la creazione di applicazioni web dinamiche.
+* TypeScript: Linguaggio di programmazione tipizzato che si basa su JavaScript.
+* JSON Server: Un server REST fittizio che fornisce un backend simulato basato su un file JSON. Utile per lo sviluppo frontend senza la necessità di un backend completo.
+* Angular Material: Libreria di componenti UI Angular che implementa il Material Design di Google, per un'interfaccia utente moderna e coerente (potrebbe essere presente per l'interfaccia di gestione).
+* RxJS: Libreria per la programmazione reattiva con Angular, utilizzata per la gestione dei flussi di dati asincroni e delle interazioni con il server.
+* Bootstrap: per lo stile
+
+Funzionalità Principali:
+
+* Visualizzazione Stanze: L'applicazione mostra un elenco delle stanze disponibili.
+* Aggiunta Nuova Stanza: Permette di creare e salvare nuove informazioni sulle stanze.
+* Modifica Dettagli Stanza: Consente di aggiornare le informazioni relative alle stanze esistenti.
+* Eliminazione Stanza: Offre la possibilità di rimuovere le stanze dalla lista.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
 
